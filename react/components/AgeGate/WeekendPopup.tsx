@@ -4,7 +4,7 @@ import styles from './WeekendPopup.css'
 const WeekendPopup = () => {
 	const dayOfWeek = new Date().getDay()
 	const timeFiveOcLok= new Date().getHours()
-	if ((dayOfWeek === 1 && timeFiveOcLok >= 16) || dayOfWeek === 0 || dayOfWeek === 6) {
+	if ((dayOfWeek === 5 && timeFiveOcLok >= 17) || dayOfWeek === 0 || dayOfWeek === 6) {
 		debugger
 		return (
 			<div className={styles.bannerWrapper}>
