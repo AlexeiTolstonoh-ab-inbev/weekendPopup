@@ -1,9 +1,9 @@
 {
   "vendor": "abiukb2b",
-  "name": "age-gate",
+  "name": "weekend-popup",
   "version": "0.0.1",
-  "title": "age-gate",
-  "description": "AgeGate Component",
+  "title": "weekend-popup",
+  "description": "weekend-popup Component",
   "defaultLocale": "pt-BR",
   "builders": {
     "messages": "1.x",

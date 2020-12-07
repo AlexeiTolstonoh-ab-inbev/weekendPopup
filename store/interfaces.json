@@ -1,6 +1,6 @@
 {
-  "age-gate": {
-    "component": "AgeGate",
+  "weekend-popup": {
+    "component": "WeekendPopup",
     "allowed": ["rich-text"]
   }
 }
