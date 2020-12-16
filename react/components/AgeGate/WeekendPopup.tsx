@@ -5,7 +5,6 @@ const WeekendPopup = () => {
 	const dayOfWeek = new Date().getDay()
 	const timeFiveOcLok= new Date().getHours()
 	if ((dayOfWeek === 5 && timeFiveOcLok >= 17) || dayOfWeek === 0 || dayOfWeek === 6) {
-		debugger
 		return (
 			<div className={styles.bannerWrapper}>
 				<p className={styles.bannerText}>All orders placed will be processed the following working day</p>
@@ -16,6 +15,4 @@ return(
 	<div></div>
 )
 }
-
-
 export default WeekendPopup
